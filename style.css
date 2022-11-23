@@ -1,0 +1,185 @@
+* {
+   margin: 0;
+   padding: 0;
+   font-family: 'Times New Roman', Times, serif;
+
+
+}
+
+.header {
+    background-color: #C15354;
+    width: 100%;
+    display: flex;
+   align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    color: white;
+    font-size: 3rem;
+    position: sticky;
+    top: 0px;
+
+}
+.header2 {
+    background-color:  #C15354;
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    color: white;
+}
+.intro {
+    margin-top: 10px;
+    font-size: 15px;
+}
+.btn{
+    background-color: #C15354;
+    border: 0px;
+    color: white;
+    margin: 15px;
+    font-size: 2rem;
+}
+.row1 {
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around 55px;
+    margin: 5%;
+}
+
+
+.box{
+    margin-right: 5%;
+    border: none;
+    width: 100%;
+    height: object-fit ;
+    padding: 25px;
+    font-size: 1rem;
+    
+}
+.box button{
+    background-color: #C15354;
+    border: none;
+     border-color: #C15354 ;
+    width: fit-content;
+    color: white;
+    font-size: large;
+     padding-left: 1%;
+    padding-right: 1%;
+     margin-top: 3%; 
+}
+
+.tittle{
+    background-color: #C15354;
+    width: 100%;
+    height: 60vh;
+}
+
+.head{
+    text-align: center;
+    color: white;
+    padding-top: 2%;
+    margin-bottom: 3%;
+}
+
+.Box-t{
+    display: flex;
+    justify-content: center;
+    height: 30vh;  
+}
+
+.image{
+    margin-right: 3%;
+    border: 1px solid white;
+    text-align: center;
+    width: 17%;
+    height: 120%; 
+}
+
+.image img{
+    border-radius: 50%;
+    width: 100px;
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+
+.row-t{
+    margin-top: 5%;
+    margin-bottom: 1%;
+    text-align: center;
+    font-size: 2rem;
+
+}
+
+ .container {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 100%; 
+} 
+
+.Scene{
+    margin: 7%;  
+}
+.Scene img{
+    width: 50vh;
+    height: 50vh;   
+}
+
+.Scene h3{
+    color: #C15354;
+    margin-bottom: 3%;
+}
+
+.Scene p{
+    margin-bottom: 3%;
+}
+
+.Scene button{
+   
+    background-color: #C15354;
+    border: none;
+     border-color: #C15354 ;
+    width: fit-content;
+    color: white;
+    font-size: large;
+     padding-left: 1%;
+    padding-right: 1%;
+     margin-top: 3%; 
+}
+
+.footer {
+    margin:45px
+    background-color : gray;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+    margin: 45px;
+    font-family: 'Courier New', Courier, monospace;
+    color: gray;
+  
+}
+.icons .fa {
+    color: #C15354;
+}
+.icons .fa-copyright {
+    color: black;
+    
+}
+
+ .nav {
+   
+    position: fixed;
+    right: 60px;
+    bottom: 60px;
+  } 
